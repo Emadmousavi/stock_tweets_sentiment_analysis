@@ -1,0 +1,45 @@
+\usepackage[immediate]{silence}
+\WarningFilter[temp]{latex}{Command} % silence the warning
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr}
+\usepackage{vmargin}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{tocloft}
+\usepackage{titlesec}
+\usepackage[many]{tcolorbox}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{algorithmic}
+\usepackage{xepersian}
+\usepackage{sectsty}
+\usepackage{csvsimple}
+\usepackage{adjustbox}
+
+\sectionfont{\huge}
+\subsectionfont{\LARGE}
+
+\setmarginsrb{3 cm}{1.5 cm}{3 cm}{2.5 cm}{1.0 cm}{1.5 cm}{1.0 cm}{1.5 cm}
+\setlength{\headheight}{60 pt}
+\settextfont{BNazanin.ttf}
+
+\fancyhead[L]{\includegraphics[scale = 0.15]{Images/IUSTLogo.png}}
+\fancyhead[C]{\LARGE \Course}
+\fancyhead[R]{\LARGE \Subject}
+
+\renewcommand{\headrulewidth}{0.5mm}
+\pagestyle{fancy}
+
+\renewcommand{\labelitemi}{$\bullet$}
+\renewcommand{\labelitemii}{$\cdot$}
+\renewcommand{\labelitemiii}{$\diamond$}
+\renewcommand{\labelitemiv}{$\ast$}
+
+\def\vektor#1{\innervector(#1)}
+\def\innervector(#1,#2) {\ensuremath{\left( #1,#2 \right)}}
+\let\coord\vektor

@@ -1,0 +1,106 @@
+\Section{منبع دقیق داده}
+{
+	ابتدا قصد داشتم که توییت های مورد نیاز برای این تسک را از توییتر کراول کنم و یک \lr{crawler} هم نوشتم اما به علت فیلتر بودن توییتر و مشکلاتی از این قبیل نتواستم این کار را انجام دهم.
+	
+	به همین خاطر از دیتاست های \lr{Kaggle} استفاده کرده ام. برای اینکه داده ها \lr{bias} نداشته باشند از چندین دیتاست مختلف استفاده کرده ام. دیتاست های استفاده شده به شرح زیر است:
+	
+	\subsection{\lr{stock-tweet-sentiment-dataset}}
+	{
+		
+		این \href{https://www.kaggle.com/datasets/chenxidong/stock-tweet-sentiment-dataset}{دیتاست} 
+		شامل تقریبا 28000 توییت در مورد سهام های مختلف در بازار 
+		\lr{Stock}
+		آمریکا است و همچنین بعضی از رمز ارز ها را هم شامل می شود. 
+		\newline ستون های این دیتاست عبارتند از: 
+		\begin{itemize}
+			\item \lr{timestamp}
+			\item \lr{text}
+			\item \lr{source}
+			\item \lr{symbols}
+			\item \lr{company-names}
+			\item \lr{sentiment}
+		\end{itemize}
+		\lr{Sentiment} هر توییت در این دیتاست با 3 برچسب به صورت زیر مشخص شده است:
+		\begin{itemize}
+			\item مثبت \lr{(Positive)} : \lr{1}
+			\item خنثی \lr{(Neutral)} : \lr{0}
+			\item منفی \lr{(Negative)} : \lr{-1}
+		\end{itemize}
+		
+	}
+	\subsection{\lr{stock-market-tweets}}
+	{
+		این \href{https://huggingface.co/datasets/mjw/stock_market_tweets}{دیتاست}
+		از 
+		\lr{hugging face}
+		می باشد و شامل تقریبا 7.1 میلیون توییت در مورد سهام های 
+		\lr{AMZN (Amazon), GOOG (Google), MSFT (Microsoft), TSLA(Tesla), AAPL (Apple) }
+		می باشد.
+		\newline ستون های این دیتاست عبارتند از:
+		\begin{itemize}
+			\item \lr{tweet\_id}
+			\item \lr{writer}
+			\item \lr{post\_date}
+			\item \lr{body}
+			\item \lr{comment\_num}
+			\item \lr{retweet\_num}
+			\item \lr{like\_num}
+			\item \lr{ticker\_symbol}
+		\end{itemize}
+		لازم به ذکر است که 
+		\lr{sentiment}
+		این دیتاست برچسب گذاری نشده است و در ادامه لازم است تا با ابزار هایی این دیتاست را برچسب گذاری کنیم.
+	}
+	\subsection{\lr{stocks-with-sentiment-and-emotion-analysist}}
+	{
+		این \href{https://www.kaggle.com/datasets/andreaskonradsen/stocks-with-sentiment-and-emotion-analysis}{دیتاست} 
+		شامل تقریبا 2.1 میلیون توییت در مورد سهام های 
+		\lr{AMZN (Amazon), GOOG (Google), MSFT (Microsoft), TSLA(Tesla), AAPL (Apple) }
+		می باشد.
+		\newline ستون های این دیتاست عبارتند از:
+		\begin{itemize}
+			\item \lr{tweet\_id}
+			\item \lr{writer}
+			\item \lr{post\_date}
+			\item \lr{body}
+			\item \lr{body\_cleaned}
+			\item \lr{comment\_num}
+			\item \lr{retweet\_num}
+			\item \lr{like\_num}
+			\item \lr{probabilities}
+		\end{itemize}
+		برچسب گذاری این دیتاست در ستون 
+		\lr{probabilities} 
+		انجام شده است و دارای 3 مقدار زیر می باشد:
+		\begin{itemize}
+			\item \lr{positive}
+			\item \lr{neutral}
+			\item \lr{negative}
+		\end{itemize}
+	}
+	
+	\subsection{\lr{cryptocurrency-tweets-with-sentiment-analysist}}
+	{
+		این \href{https://www.kaggle.com/datasets/fabioturazzi/cryptocurrency-tweets-with-sentiment-analysis}{دیتاست} 
+		شامل تقریبا 825000 توییت در مورد سهام های مختلف می باشد که برچسب گذاری هم شده اند. این دیتاست شامل 43 ستون می باشد که برخی از مهم ترین آنها عبارتند از:
+		\begin{itemize}
+			\item \lr{date}
+			\item \lr{username}
+			\item \lr{retweet\_counts}
+			\item \lr{tweet}
+			\item \lr{neg}
+			\item \lr{neu}
+			\item \lr{pos}
+			\item \lr{compound}
+		\end{itemize}
+		که مقدار نهایی برچسب در ستون 
+		\lr{compound} 
+		می باشد که مقادیر آن به شرح زیر می باشد:
+		\begin{itemize}
+			\item \lr{positive}
+			\item \lr{neutral}
+			\item \lr{negative}
+		\end{itemize}
+		
+	}
+}
