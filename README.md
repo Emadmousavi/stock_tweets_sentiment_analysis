@@ -10,7 +10,7 @@
 #### You can read the projcet document [HERE](https://github.com/Emadmousavi/stock_tweets_sentiment_analysis/blob/main/latex_report/main.pdf)
 <br>
 
-## Dataset links:
+## Used-Datasets links:
 ##### 1- https://www.kaggle.com/datasets/chenxidong/stock-tweet-sentiment-dataset
 ##### 2- https://huggingface.co/datasets/mjw/stock_market_tweets
 ##### 3- https://www.kaggle.com/datasets/andreaskonradsen/stocks-with-sentiment-and-emotion-analysis
