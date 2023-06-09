@@ -37,7 +37,6 @@ python tokenize_data.py
 ```
 python collect_stats.py
 ```
-<br>
 ### or you can just run this command
 ```
 python collect_data_&_stats.py
