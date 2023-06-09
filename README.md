@@ -1,15 +1,15 @@
 # stock_tweets_sentiment_analysis
 ## About Project
-#####This is IUST NLP Course project. I have done these items in this project:
-#####1- Use some different Kaggle Datasets about Stock and Crypto tweets, combine them, pre-process them and finally create a new Dataset
-#####2- Label each tweets as positive, negative and neutral with some auto-labling techniques
-#####3- show Statistics about Dataset in PNG and CSV formats
-#####4- Create a Transformer-based model and train it on my dataset
+#### This is IUST NLP Course project. I have done these items in this project:
+- ##### Use some different Kaggle Datasets about Stock and Crypto tweets, combine them, pre-process them and finally create a new Dataset
+- ##### Label each tweets as positive, negative and neutral with some auto-labling techniques
+- ##### show Statistics about Dataset in PNG and CSV formats
+- ##### Create a Transformer-based model and train it on my dataset
+
+#### Finally you can feed model a tweet about Stock or crypto and get its sentiment as positve, negtivae or neutral
 <br>
-Finally you can feed model a tweet about Stock or crypto and get its sentiment as positve, negtivae or neutral
 
-
-### Dataset links:
+## Dataset links:
 ##### 1- https://www.kaggle.com/datasets/chenxidong/stock-tweet-sentiment-dataset
 ##### 2- https://huggingface.co/datasets/mjw/stock_market_tweets
 ##### 3- https://www.kaggle.com/datasets/andreaskonradsen/stocks-with-sentiment-and-emotion-analysis
