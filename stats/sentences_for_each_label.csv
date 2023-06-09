@@ -1,17 +1,2 @@
-,neg_sentences_num,pos_sentences_num,neu_sentences_num
-0,"['aapl guess downgrade morning effective enough hope analyst enough time pick stock'
- 'msft bastard'
- 'updated visa officially blames cryptocurrency overcharge scandal coinbase'
- ...
- 'im guessing scratches came windblown sand thats hunch rest problems youve got cut tsla slack theyre tech company masquerading car company eventually theyll get right'
- 'tesla killing shorts trading desk insane right tsla dis' '']","['dont worry many shares buy concern wthe return shares stocks amzn googl'
- 'aapl ok back pushing w key support looks ok higher mkt holds'
- 'amznthey glorified gotjunk biz modelchange purchase closing process kinda like prime realtors next day closing unload atty bank presence participate otherwise weighing cluttered mkt space'
- ...
- 'nope sell another k original demand fulfilled assuming reservations since day lease people throwing cash tsla'
- 'holding upgrading phone years may buy new apple iphone iphonepro part improved camera iphones still takes great photo cheers apple long aapl proudinvestor'
- '']","['good news dead elons self driving car hits road gets lost tijuana lol tsla'
- 'top largecap stocks buy december stocks nflx googl goog'
- 'tsla upward areas interest daily' ...
- 'staggering aapl made profit past days bottom cos spx combined since wait'
- 'tsla accumulated' '']"
+,neg-sentences-num,pos-sentences-num,neu-sentences-num
+0,40001,40001,40001

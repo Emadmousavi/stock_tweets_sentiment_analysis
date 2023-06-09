@@ -3,52 +3,57 @@
 {
 	\subsection{تعداد توییت ها}
 	{
+		\fontfamily{qag}\selectfont \setLR
+		\begin{center}
+			\includegraphics[scale=0.75]{../stats/sentiment_distribution.png}
+		\end{center}
+		\begin{adjustbox}{width=\textwidth}
+			\csvautotabular{../stats/sentiment_distribution.csv}  
+		\end{adjustbox}
 	}
-	\begin{center}
-		\includegraphics[scale=0.75]{../stats/sentiment_distribution.png}
-	\end{center}
-	\begin{align*}
-		% \csvautotabular{../stats/sentiment_distribution.csv}  
-	\end{align*}
 	\newpage
 	\subsection{تعداد جملات}
 	{
+		\fontfamily{qag}\selectfont \setLR
 		\begin{center}
 			\includegraphics[scale=0.75]{../stats/sentences_for_each_label.png}
 		\end{center}
-		\begin{align*}
-			% \csvautotabular{../stats/sentences_for_each_label.csv}  
-		\end{align*}
+		\begin{adjustbox}{width=\textwidth}
+			 \csvautotabular{../stats/sentences_for_each_label.csv}  
+		\end{adjustbox}
 	}
 	\newpage
 	\subsection{تعداد کلمات}
 	{
+		\fontfamily{qag}\selectfont \setLR
 		\begin{center}
 			\includegraphics[scale=0.75]{../stats/tokens_for_each_label.png}
 		\end{center}
-		\begin{align*}
-			% \csvautotabular{../stats/tokens_for_each_label.csv}  
-		\end{align*}
+		\begin{adjustbox}{width=\textwidth}
+			\csvautotabular{../stats/tokens_for_each_label.csv}  
+		\end{adjustbox}
 	}
 	\newpage
 	\subsection{تعداد کلمات منحصربفرد}
 	{
+		\fontfamily{qag}\selectfont \setLR
 		\begin{center}
 			\includegraphics[scale=0.75]{../stats/distinct_tokens_for_each_label.png}
 		\end{center}
-		\begin{align*}
-			% \csvautotabular{../stats/distinct_tokens_for_each_label.csv}  
-		\end{align*}
+		\begin{adjustbox}{width=\textwidth}
+			\csvautotabular{../stats/distinct_tokens_for_each_label.csv}  
+		\end{adjustbox}
 	}
 	\newpage
 	\subsection{تعداد کلمات منحصربفرد مشترک و غیر مشترک بین برچسب‌ها}
 	{
+		\fontfamily{qag}\selectfont \setLR
 		\begin{center}
 			\includegraphics[scale=0.75]{../stats/shared_&_unique_distinct_tokens_for_each_label.png}
 		\end{center}
-		\begin{align*}
-			% \csvautotabular{../stats/shared_&_unique_distinct_tokens_for_each_label.csv}  
-		\end{align*}
+		\begin{adjustbox}{width=\textwidth}
+			\csvautotabular{../stats/shared_&_unique_distinct_tokens_for_each_label.csv}  
+		\end{adjustbox}
 	}
 	\newpage
 	\subsection{۱۰ کلمه پرتکرار غیرمشترک هر برچسب}
@@ -59,25 +64,27 @@
 				\includegraphics[scale=0.06]{../stats/top_10_most_repeated_tokens_positive.png}
 			\end{center}
 			\begin{align*}
-				% \csvautotabular{../stats/top_10_most_repeated_tokens_positive.csv}  
+				\csvautotabular{../stats/top_10_most_repeated_tokens_positive.csv}  
 			\end{align*}
 		}
+		\newpage
 		\subsubsection{\Large منفی}
 		{ \setLR
 			\begin{center}
 				\includegraphics[scale=0.06]{../stats/top_10_most_repeated_tokens_negative.png}
 			\end{center}
 			\begin{align*}
-				% \csvautotabular{../stats/top_10_most_repeated_tokens_negative.csv}  
+				\csvautotabular{../stats/top_10_most_repeated_tokens_negative.csv}  
 			\end{align*}
 		}
+		\newpage
 		\subsubsection{\Large خنثی}
 		{ \setLR
 			\begin{center}
 				\includegraphics[scale=0.06]{../stats/top_10_most_repeated_tokens_neutral.png}
 			\end{center}
 			\begin{align*}
-				% \csvautotabular{../stats/top_10_most_repeated_tokens_neutral.csv}  
+				\csvautotabular{../stats/top_10_most_repeated_tokens_neutral.csv}  
 			\end{align*}
 		}
 	}
@@ -150,29 +157,29 @@
 				%             \end{adjustbox}
 			%             }
 		
-		% \subsection{۱۰ کلمه برتر هر برچسب بر اساس معیار
-			% 	\lr{TF-IDF}}
-		% {
-			
-			% 	\subsubsection{\Large مثبت}
-			% 	{ \fontfamily{qag}\selectfont \setLR
-				% 		\begin{adjustbox}{width=\textwidth}
-					% 			  % \csvautotabular{../stats/top_10_tokens_tf_idf_positive.csv}  
-					% 		\end{adjustbox}
-				% 	}
-			% 	\subsubsection{\Large منفی}
-			% 	{ \fontfamily{qag}\selectfont \setLR
-				% 		\begin{adjustbox}{width=\textwidth}
-					% 			  % \csvautotabular{../stats/top_10_tokens_tf_idf_negative.csv}  
-					% 		\end{adjustbox}
-				% 	}
-			% 	\subsubsection{\Large خنثی}
-			% 	{ \fontfamily{qag}\selectfont \setLR
-				% 		\begin{adjustbox}{width=\textwidth}
-					% 			  % \csvautotabular{../stats/top_10_tokens_tf_idf_neutral.csv}  
-					% 		\end{adjustbox}
-				%    }
-			%    }
+		 \subsection{۱۰ کلمه برتر هر برچسب بر اساس معیار \lr{TF-IDF}}
+		{
+			\subsubsection{\Large مثبت}
+			{ \fontfamily{qag}\selectfont \setLR
+				\begin{align*}
+					\csvautotabular{../stats/top_10_tokens_tf_idf_positive.csv}  
+				\end{align*}
+			}
+			\newpage
+			\subsubsection{\Large منفی}
+			{ \fontfamily{qag}\selectfont \setLR
+				\begin{align*}
+					\csvautotabular{../stats/top_10_tokens_tf_idf_negative.csv}  
+				\end{align*}
+			}
+			\newpage
+			\subsubsection{\Large خنثی}
+			{ \fontfamily{qag}\selectfont \setLR
+				\begin{align*}
+					\csvautotabular{../stats/top_10_tokens_tf_idf_neutral.csv}  
+				\end{align*}
+			}
+		}
 		\newpage
 		\subsection{هیستوگرام تعداد تکرار هر کلمه منحصربفرد}
 		{
@@ -188,5 +195,5 @@
 					\includegraphics[scale=0.07]{../stats/histogram_of_all_tokens.png}
 				\end{center}
 			}
-		}
+pa		}
 	}

@@ -1,33 +1,37 @@
-\contentsline {section}{\numberline {1}منبع دقیق داده}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}\lr {stock-tweet-sentiment-dataset}}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}\lr {stock-market-tweets}}{3}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}\lr {stocks-with-sentiment-and-emotion-analysist}}{3}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}\lr {cryptocurrency-tweets-with-sentiment-analysist}}{4}{subsection.1.4}%
-\contentsline {section}{\numberline {2}روش جمع‌آوری و ابزار مورداستفاده}{5}{section.2}%
-\contentsline {section}{\numberline {3}فرمت داده‌ها}{7}{section.3}%
-\contentsline {section}{\numberline {4}پیش‌پرداز‌ش‌های انجام‌شده}{8}{section.4}%
-\contentsline {subsection}{\numberline {4.1}روش/ابزار تفکیک جملات}{8}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}روش/ابزار تفکیک توکن‌ها/کلمات}{8}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}روش/معیارهای تمیزکردن داده}{9}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}\Large حذف کاراکتر های غیر لاتین}{9}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}\Large حذف کلمات پالایشی (\lr {stopwords})}{9}{subsubsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.3}\Large حذف کردن (\lr {mention} ها)}{9}{subsubsection.4.3.3}%
-\contentsline {subsubsection}{\numberline {4.3.4}\Large حذف (\lr {urls})}{9}{subsubsection.4.3.4}%
-\contentsline {subsubsection}{\numberline {4.3.5}\Large حذف اعداد و علائم نشانه گذاری (\lr {punctations})}{10}{subsubsection.4.3.5}%
-\contentsline {subsubsection}{\numberline {4.3.6}\Large تبدیل کلمات به \lr {lowercase}}{10}{subsubsection.4.3.6}%
-\contentsline {subsection}{\numberline {4.4}اندازه داده قبل/بعد تمیزکردن داده}{11}{subsection.4.4}%
-\contentsline {section}{\numberline {5}واحد و روش برچسب‌گذاری}{12}{section.5}%
-\contentsline {section}{\numberline {6}آمار داده به تفکیک برچسب}{13}{section.6}%
-\contentsline {subsection}{\numberline {6.1}تعداد توییت ها}{13}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}تعداد جملات}{14}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}تعداد کلمات}{15}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}تعداد کلمات منحصربفرد}{16}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}تعداد کلمات منحصربفرد مشترک و غیر مشترک بین برچسب‌ها}{17}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}۱۰ کلمه پرتکرار غیرمشترک هر برچسب}{18}{subsection.6.6}%
-\contentsline {subsubsection}{\numberline {6.6.1}\Large مثبت}{18}{subsubsection.6.6.1}%
-\contentsline {subsubsection}{\numberline {6.6.2}\Large منفی}{18}{subsubsection.6.6.2}%
-\contentsline {subsubsection}{\numberline {6.6.3}\Large خنثی}{19}{subsubsection.6.6.3}%
-\contentsline {subsection}{\numberline {6.7}هیستوگرام تعداد تکرار هر کلمه منحصربفرد}{20}{subsection.6.7}%
-\contentsline {subsubsection}{\numberline {6.7.1}100 کلمه برتر}{20}{subsubsection.6.7.1}%
-\contentsline {subsubsection}{\numberline {6.7.2}تمام کلمات}{20}{subsubsection.6.7.2}%
-\contentsline {section}{\numberline {7}آدرس گیت هاب و \lr {Huggin Face}}{20}{section.7}%
+\contentsline {section}{\numberline {1}منبع دقیق داده}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}\lr {stock-tweet-sentiment-dataset}}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}\lr {stock-market-tweets}}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}\lr {stocks-with-sentiment-and-emotion-analysist}}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}\lr {cryptocurrency-tweets-with-sentiment-analysist}}{5}{subsection.1.4}%
+\contentsline {section}{\numberline {2}روش جمع‌آوری و ابزار مورداستفاده}{6}{section.2}%
+\contentsline {section}{\numberline {3}فرمت داده‌ها}{8}{section.3}%
+\contentsline {section}{\numberline {4}پیش‌پرداز‌ش‌های انجام‌شده}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}روش/ابزار تفکیک جملات}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}روش/ابزار تفکیک توکن‌ها/کلمات}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}روش/معیارهای تمیزکردن داده}{10}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}\Large حذف کاراکتر های غیر لاتین}{10}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}\Large حذف کلمات پالایشی (\lr {stopwords})}{10}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}\Large حذف کردن (\lr {mention} ها)}{10}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.4}\Large حذف (\lr {urls})}{10}{subsubsection.4.3.4}%
+\contentsline {subsubsection}{\numberline {4.3.5}\Large حذف اعداد و علائم نشانه گذاری (\lr {punctations})}{11}{subsubsection.4.3.5}%
+\contentsline {subsubsection}{\numberline {4.3.6}\Large تبدیل کلمات به \lr {lowercase}}{11}{subsubsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.4}اندازه داده قبل/بعد تمیزکردن داده}{12}{subsection.4.4}%
+\contentsline {section}{\numberline {5}واحد و روش برچسب‌گذاری}{13}{section.5}%
+\contentsline {section}{\numberline {6}آمار داده به تفکیک برچسب}{14}{section.6}%
+\contentsline {subsection}{\numberline {6.1}تعداد توییت ها}{14}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}تعداد جملات}{15}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}تعداد کلمات}{16}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}تعداد کلمات منحصربفرد}{17}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}تعداد کلمات منحصربفرد مشترک و غیر مشترک بین برچسب‌ها}{18}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}۱۰ کلمه پرتکرار غیرمشترک هر برچسب}{19}{subsection.6.6}%
+\contentsline {subsubsection}{\numberline {6.6.1}\Large مثبت}{19}{subsubsection.6.6.1}%
+\contentsline {subsubsection}{\numberline {6.6.2}\Large منفی}{20}{subsubsection.6.6.2}%
+\contentsline {subsubsection}{\numberline {6.6.3}\Large خنثی}{21}{subsubsection.6.6.3}%
+\contentsline {subsection}{\numberline {6.7}۱۰ کلمه برتر هر برچسب بر اساس معیار \lr {TF-IDF}}{22}{subsection.6.7}%
+\contentsline {subsubsection}{\numberline {6.7.1}\Large مثبت}{22}{subsubsection.6.7.1}%
+\contentsline {subsubsection}{\numberline {6.7.2}\Large منفی}{23}{subsubsection.6.7.2}%
+\contentsline {subsubsection}{\numberline {6.7.3}\Large خنثی}{24}{subsubsection.6.7.3}%
+\contentsline {subsection}{\numberline {6.8}هیستوگرام تعداد تکرار هر کلمه منحصربفرد}{25}{subsection.6.8}%
+\contentsline {subsubsection}{\numberline {6.8.1}100 کلمه برتر}{25}{subsubsection.6.8.1}%
+\contentsline {subsubsection}{\numberline {6.8.2}تمام کلمات}{25}{subsubsection.6.8.2}%
+\contentsline {section}{\numberline {7}آدرس گیت هاب و \lr {Huggin Face}}{25}{section.7}%

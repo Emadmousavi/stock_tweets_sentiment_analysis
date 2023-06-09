@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.6.5)  6 JUN 2023 09:23
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.6.5)  9 JUN 2023 16:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1493,11 +1493,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 [1
 
-]) (main.toc)
+]) (main.toc [1])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [1] (Sections/S1.tex
+File: Images/IUSTLogo.png Graphic file (type bmp)
+<Images/IUSTLogo.png>
+ [2] (Sections/S1.tex
 Overfull \hbox (8.46025pt too wide) in paragraph at lines 106--106
 [][]\TU/lmroman10-regular(0)/m/n/14.4 AMZN (Amazon), GOOG (Google), MSFT (Micro
 soft), TSLA(Tesla),[][]
@@ -1505,7 +1507,7 @@ soft), TSLA(Tesla),[][]
 
 File: Images/IUSTLogo.png Graphic file (type bmp)
 <Images/IUSTLogo.png>
-[2]
+[3]
 Overfull \hbox (0.675pt too wide) in paragraph at lines 106--106
 []\TU/BNazanin.ttf(0)/b/n/14.4 این [][][]دیتاست[][][] شامل تقریبا ۲.‏۱ میلیون ت
 وییت در مورد سهام های []\TU/lmroman10-regular(0)/m/n/14.4 AMZN (Amazon), GOOG[]
@@ -1514,7 +1516,7 @@ Overfull \hbox (0.675pt too wide) in paragraph at lines 106--106
 
 File: Images/IUSTLogo.png Graphic file (type bmp)
 <Images/IUSTLogo.png>
-[3]
+[4]
 Overfull \hbox (21.06367pt too wide) in paragraph at lines 106--106
 [][][]\TU/lmroman10-regular(0)/b/n/17.28 cryptocurrency-tweets-with-sentiment-a
 nalysist[] []
@@ -1522,29 +1524,29 @@ nalysist[] []
 
 File: Images/IUSTLogo.png Graphic file (type bmp)
 <Images/IUSTLogo.png>
-[4]) (Sections/S2.tex)
+[5]) (Sections/S2.tex)
 File: Images/IUSTLogo.png Graphic file (type bmp)
 <Images/IUSTLogo.png>
- [5]
+ [6]
 File: Images/IUSTLogo.png Graphic file (type bmp)
 <Images/IUSTLogo.png>
- [6] (Sections/S3.tex
+ [7] (Sections/S3.tex
 File: Images/data_folder_structure.png Graphic file (type bmp)
 <Images/data_folder_structure.png>
 File: Images/IUSTLogo.png Graphic file (type bmp)
 <Images/IUSTLogo.png>
- [7]) (Sections/S4.tex
+ [8]) (Sections/S4.tex
 Missing character: There is no إ in font [lmroman10-regular]/OT:script=latn;lan
 guage=dflt;mapping=tex-text;!
 File: Images/IUSTLogo.png Graphic file (type bmp)
 <Images/IUSTLogo.png>
-[8]
-File: Images/IUSTLogo.png Graphic file (type bmp)
-<Images/IUSTLogo.png>
- [9]
+[9]
 File: Images/IUSTLogo.png Graphic file (type bmp)
 <Images/IUSTLogo.png>
  [10]
+File: Images/IUSTLogo.png Graphic file (type bmp)
+<Images/IUSTLogo.png>
+ [11]
 File: ../stats/token_counts_befor_after_pre_processing.png Graphic file (type b
 mp)
 <../stats/token_counts_befor_after_pre_processing.png>
@@ -1554,136 +1556,171 @@ e bmp)
 ) (Sections/S5.tex
 File: Images/IUSTLogo.png Graphic file (type bmp)
 <Images/IUSTLogo.png>
- [11])
+ [12])
 File: Images/IUSTLogo.png Graphic file (type bmp)
 <Images/IUSTLogo.png>
- [12] (Sections/S6.tex
+ [13] (Sections/S6.tex
+LaTeX Font Info:    Trying to load font information for TU+qag on input line 19
+9.
+LaTeX Font Info:    No file TUqag.fd. on input line 199.
+
+
+LaTeX Font Warning: Font shape `TU/qag/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 199.
+
 File: ../stats/sentiment_distribution.png Graphic file (type bmp)
 <../stats/sentiment_distribution.png>
 
-Overfull \hbox (6.18825pt too wide) in paragraph at lines 192--192
- [][][][][] 
+Overfull \hbox (6.18825pt too wide) in paragraph at lines 199--199
+ [][][] 
  []
 
-File: Images/IUSTLogo.png Graphic file (type bmp)
-<Images/IUSTLogo.png>
-[13]
-File: ../stats/sentences_for_each_label.png Graphic file (type bmp)
-<../stats/sentences_for_each_label.png>
 
-Overfull \hbox (6.18825pt too wide) in paragraph at lines 192--192
- [][][][][] 
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
+[][]
  []
 
 File: Images/IUSTLogo.png Graphic file (type bmp)
 <Images/IUSTLogo.png>
 [14]
-File: ../stats/tokens_for_each_label.png Graphic file (type bmp)
-<../stats/tokens_for_each_label.png>
+File: ../stats/sentences_for_each_label.png Graphic file (type bmp)
+<../stats/sentences_for_each_label.png>
 
-Overfull \hbox (6.18825pt too wide) in paragraph at lines 192--192
- [][][][][] 
+Overfull \hbox (6.18825pt too wide) in paragraph at lines 199--199
+ [][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
+[][]
  []
 
 File: Images/IUSTLogo.png Graphic file (type bmp)
 <Images/IUSTLogo.png>
 [15]
-File: ../stats/distinct_tokens_for_each_label.png Graphic file (type bmp)
-<../stats/distinct_tokens_for_each_label.png>
+File: ../stats/tokens_for_each_label.png Graphic file (type bmp)
+<../stats/tokens_for_each_label.png>
 
-Overfull \hbox (6.18825pt too wide) in paragraph at lines 192--192
- [][][][][] 
+Overfull \hbox (6.18825pt too wide) in paragraph at lines 199--199
+ [][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
+[][]
  []
 
 File: Images/IUSTLogo.png Graphic file (type bmp)
 <Images/IUSTLogo.png>
 [16]
-File: ../stats/shared_&_unique_distinct_tokens_for_each_label.png Graphic file 
-(type bmp)
-<../stats/shared_&_unique_distinct_tokens_for_each_label.png>
+File: ../stats/distinct_tokens_for_each_label.png Graphic file (type bmp)
+<../stats/distinct_tokens_for_each_label.png>
 
-Overfull \hbox (6.18825pt too wide) in paragraph at lines 192--192
- [][][][][] 
+Overfull \hbox (6.18825pt too wide) in paragraph at lines 199--199
+ [][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
+[][]
  []
 
 File: Images/IUSTLogo.png Graphic file (type bmp)
 <Images/IUSTLogo.png>
 [17]
-LaTeX Font Info:    Trying to load font information for TU+qag on input line 19
-2.
-LaTeX Font Info:    No file TUqag.fd. on input line 192.
+File: ../stats/shared_&_unique_distinct_tokens_for_each_label.png Graphic file 
+(type bmp)
+<../stats/shared_&_unique_distinct_tokens_for_each_label.png>
 
-
-LaTeX Font Warning: Font shape `TU/qag/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 192.
-
-File: ../stats/top_10_most_repeated_tokens_positive.png Graphic file (type bmp)
-
-<../stats/top_10_most_repeated_tokens_positive.png>
-
-Overfull \hbox (6.17064pt too wide) in paragraph at lines 192--192
+Overfull \hbox (6.18825pt too wide) in paragraph at lines 199--199
  [][][] 
  []
 
-File: ../stats/top_10_most_repeated_tokens_negative.png Graphic file (type bmp)
 
-<../stats/top_10_most_repeated_tokens_negative.png>
-
-Overfull \hbox (6.17064pt too wide) in paragraph at lines 192--192
- [][][] 
- []
-
-File: ../stats/top_10_most_repeated_tokens_neutral.png Graphic file (type bmp)
-<../stats/top_10_most_repeated_tokens_neutral.png>
-
-Overfull \hbox (6.17064pt too wide) in paragraph at lines 192--192
- [][][] 
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
+[][]
  []
 
 File: Images/IUSTLogo.png Graphic file (type bmp)
 <Images/IUSTLogo.png>
 [18]
+File: ../stats/top_10_most_repeated_tokens_positive.png Graphic file (type bmp)
+
+<../stats/top_10_most_repeated_tokens_positive.png>
+
+Overfull \hbox (6.17064pt too wide) in paragraph at lines 199--199
+ [][][] 
+ []
+
 File: Images/IUSTLogo.png Graphic file (type bmp)
 <Images/IUSTLogo.png>
- [19]
+[19]
+File: ../stats/top_10_most_repeated_tokens_negative.png Graphic file (type bmp)
+
+<../stats/top_10_most_repeated_tokens_negative.png>
+
+Overfull \hbox (6.17064pt too wide) in paragraph at lines 199--199
+ [][][] 
+ []
+
+File: Images/IUSTLogo.png Graphic file (type bmp)
+<Images/IUSTLogo.png>
+[20]
+File: ../stats/top_10_most_repeated_tokens_neutral.png Graphic file (type bmp)
+<../stats/top_10_most_repeated_tokens_neutral.png>
+
+Overfull \hbox (6.17064pt too wide) in paragraph at lines 199--199
+ [][][] 
+ []
+
+File: Images/IUSTLogo.png Graphic file (type bmp)
+<Images/IUSTLogo.png>
+[21]
+File: Images/IUSTLogo.png Graphic file (type bmp)
+<Images/IUSTLogo.png>
+ [22]
+File: Images/IUSTLogo.png Graphic file (type bmp)
+<Images/IUSTLogo.png>
+ [23]
+File: Images/IUSTLogo.png Graphic file (type bmp)
+<Images/IUSTLogo.png>
+ [24]
 File: ../stats/top_100_high_frequency_tokens_histogram.png Graphic file (type b
 mp)
 <../stats/top_100_high_frequency_tokens_histogram.png>
 
-Overfull \hbox (78.51118pt too wide) in paragraph at lines 192--192
+Overfull \hbox (78.51118pt too wide) in paragraph at lines 199--199
  [][][][][] 
  []
 
 File: ../stats/histogram_of_all_tokens.png Graphic file (type bmp)
 <../stats/histogram_of_all_tokens.png>
 
-Overfull \hbox (78.51118pt too wide) in paragraph at lines 192--192
+Overfull \hbox (78.51118pt too wide) in paragraph at lines 199--199
  [][][][][] 
  []
 
+Missing character: There is no p in font [BNazanin.ttf]/OT:language=dflt;script
+=arab;mapping=persian-tex-text;!
+Missing character: There is no a in font [BNazanin.ttf]/OT:language=dflt;script
+=arab;mapping=persian-tex-text;!
 ) (Sections/S7.tex)
 File: Images/IUSTLogo.png Graphic file (type bmp)
 <Images/IUSTLogo.png>
- [20] (main.aux)
+ [25] (main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: CA84D15FFACE331E82880BC2482F7D5A;3274
-(rerunfilecheck)             After:  6F68472C63FDCBB6046F41FC20CB2743;7484.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: ABA1CC3D739AE29CB834B71DABF42608;8160.
  ) 
 Here is how much of TeX's memory you used:
- 33518 strings out of 411547
- 714786 string characters out of 5818437
+ 33586 strings out of 411547
+ 716777 string characters out of 5818437
  1855476 words of memory out of 5000000
- 53069 multiletter control sequences out of 15000+600000
- 518561 words of font info for 84 fonts, out of 8000000 for 9000
+ 53131 multiletter control sequences out of 15000+600000
+ 519206 words of font info for 87 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 92i,14n,100p,2403b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,14n,100p,2403b,510s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (21 pages).
+Output written on main.pdf (26 pages).
