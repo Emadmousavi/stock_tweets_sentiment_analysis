@@ -7,6 +7,7 @@
 - ##### Create a Transformer-based model and train it on my dataset
 
 #### Finally you can feed model a tweet about Stock or crypto and get its sentiment as positve, negtivae or neutral
+#### You can read the projcet document [HERE](https://github.com/Emadmousavi/stock_tweets_sentiment_analysis/blob/main/latex_report/main.pdf)
 <br>
 
 ## Dataset links:
