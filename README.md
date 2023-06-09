@@ -15,30 +15,30 @@
 <br>
 
 
-### How to use:
-#### in order to collect data and stats successfully you can use NLP_Project.ipynb notebook. <br>
+## How to use:
+#### In order to collect data and stats successfully you can use NLP_Project.ipynb notebook. <br>
 #### Alternatively you can run this python file in sequence to have same output as notebbok:
 ##### 1- collect raw data
 ```
 python collect_raw_data.py
 ```
 
-##### 1- collect clean data
+##### 2- collect clean data
 ```
 python collect_clean_data.py
 ```
 
-##### 1- tokenize data
+##### 3- tokenize data
 ```
 python tokenize_data.py
 ```
 
-##### 1- collect stats
+##### 4- collect stats
 ```
 python collect_stats.py
 ```
-
-#### or you can just run this command
+<br>
+### or you can just run this command
 ```
 python collect_data_&_stats.py
 ```
