@@ -11,11 +11,12 @@
 ### My Dataset link (HuggingFace):
 ##### https://huggingface.co/datasets/emad12/stock_tweets_sentiment/viewer/emad12--stock_tweets_sentiment/
 
-
+<br>
+<br>
 
 
 ### How to use:
-#### in order to collect data and stats successfully you can use NLP_Project.ipynb notebook. 
+#### in order to collect data and stats successfully you can use NLP_Project.ipynb notebook. <br>
 #### Alternatively you can run this python file in sequence to have same output as notebbok:
 ##### 1- collect raw data
 ```
