@@ -11,6 +11,7 @@
 <br>
 
 ## Used-Datasets links:
+#### All of these Datasets contains over 5 million tweets overall
 ##### 1- https://www.kaggle.com/datasets/chenxidong/stock-tweet-sentiment-dataset
 ##### 2- https://huggingface.co/datasets/mjw/stock_market_tweets
 ##### 3- https://www.kaggle.com/datasets/andreaskonradsen/stocks-with-sentiment-and-emotion-analysis
@@ -19,6 +20,7 @@
 <br>
 
 ## My Dataset link (HuggingFace):
+#### This Dataset contains 628000 tweets
 ##### https://huggingface.co/datasets/emad12/stock_tweets_sentiment/viewer/emad12--stock_tweets_sentiment/
 
 <br>
